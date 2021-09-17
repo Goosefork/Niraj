@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: "DashboardRegular";
+  src: local("Dashboard-Regular"), url(./assets/fonts/Dashboard-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ArchivoBlack";
+  src: local("Archivo"), url(./assets/fonts/Avara-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Archivo";
+  src: local("Archivo"), url(./assets/fonts/Avara-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ArchivoSemiBold";
+  src: local("Archivo"), url(./assets/fonts/Avara-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "BlackOpsOneRegular";
+  src: local("Archivo"), url(./assets/fonts/BlackOpsOne-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: ARCHIVO;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1A1A1B;
+  color: #ffffff;
+}
+.ethSymbol{
+  font-family: 'system-ui' !important;
+}
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1140px;
+  }
+}
